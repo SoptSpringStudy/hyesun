@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student2" class="Student">
+        <property name="name">
+            <value>김민지</value>
+        </property>
+        <property name="age">
+            <value>24</value>
+        </property>
+        <property name="soptDept">
+            <value>Server</value>
+        </property>
+        <property name="friends">
+            <list>
+                <value>김민지</value>
+                <value>박경선</value>
+                <value>이현우</value>
+                <value>김동관</value>
+            </list>
+        </property>
+        <property name="proLangs">
+            <map>
+                <entry>
+                    <key>
+                        <value>C언어</value>
+                    </key>
+                    <value>반년</value>
+                </entry>
+                <entry>
+                    <key>
+                        <value>javascript</value>
+                    </key>
+                    <value>1년</value>
+                </entry>
+            </map>
+        </property>
+    </bean>
+</beans>
