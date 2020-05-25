@@ -1,4 +1,4 @@
-[ 0518 스프링 스터디 자료 ]
+# [ 0518 스프링 스터디 자료 ]
 *	스프링 프레임워크는 주요기능으로 DI, AOP, MVC, JDBC 등을 제공한다.
 *	스프링 프레임워크에서 제공하고 있는 모듈
 1)	Spring-core : di와 ioc를 제공
@@ -54,8 +54,7 @@ Property 태그를 이용하고, list 태그 안에 value 태그를 넣어주면
 Map 태그를 이용한다.
 
 
-[ 0525 스프링 스터디 ]
-
+# [ 0525 스프링 스터디 ]
 *	스프링 설정 파일 분리
 applicationContext.xml -> app1.xml, app2.xml, app3.xml 분리
 
