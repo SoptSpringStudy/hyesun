@@ -1,3 +1,4 @@
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
 import java.util.Scanner;
@@ -9,8 +10,9 @@ public class Main {
         int[] age = {11,14,16};
         String[] soptDept = {"android","server","server"};
 
-        String[] ctxs = {"classpath:appCtx1.xml"};
-        GenericXmlApplicationContext ctx = new GenericXmlApplicationContext(ctxs);
+//        String[] ctxs = {"classpath:appCtx1.xml"};
+//        GenericXmlApplicationContext ctx = new GenericXmlApplicationContext(ctxs);
+        AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(StudentConfig.class);
 
         StudentRegisterService studentRegisterService = ctx.getBean("studentRegisterService", StudentRegisterService.class);
         for(int i=0; i<name.length; i++){
