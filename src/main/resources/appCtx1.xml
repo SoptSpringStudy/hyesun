@@ -11,6 +11,7 @@
 
     <bean id="studentDao" class="StudentDao"/>
 
-    <bean id="studentService" class="StudentService"/>
+    <bean id="studentRegisterService" class="StudentRegisterService"/>
 
+    <bean id="studentSearchService" class="StudentSearchService"/>
 </beans>

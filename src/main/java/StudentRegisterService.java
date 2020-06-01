@@ -1,14 +1,14 @@
 import org.springframework.beans.factory.annotation.Autowired;
 
 
-public class StudentService{
+public class StudentRegisterService {
 
     private StudentDao studentDao;
 
-    public StudentService(){ }
+    public StudentRegisterService(){ }
 
     @Autowired
-    public StudentService(StudentDao studentDao){
+    public StudentRegisterService(StudentDao studentDao){
         this.studentDao = studentDao;
     }
 

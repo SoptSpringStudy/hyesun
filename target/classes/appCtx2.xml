@@ -5,7 +5,6 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="student1" class="Student">
-        <qualifier value="used"/>
         <property name="name">
             <value>양혜선</value>
         </property>
