@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="student2" class="Student">
+    <bean id="student2" class="com.spring.Student">
         <property name="name">
             <value>김민지</value>
         </property>

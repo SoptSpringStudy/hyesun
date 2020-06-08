@@ -9,9 +9,9 @@
 
     <context:annotation-config/>
 
-    <bean id="studentDao" class="StudentDao"/>
+    <bean id="studentDao" class="com.spring.dao.StudentDao"/>
 
-    <bean id="studentRegisterService" class="StudentRegisterService"/>
+    <bean id="studentRegisterService" class="com.spring.services.StudentRegisterService"/>
 
-    <bean id="studentSearchService" class="StudentSearchService"/>
+    <bean id="studentSearchService" class="com.spring.services.StudentSearchService"/>
 </beans>
